@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>TestNG:  Temenos</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Temenos</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 09 10:00:02 SGT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>61 seconds (61204 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.temenos.testscripts.LoginTest.verifyLogin()'><b>verifyLogin</b><br>Test class: com.temenos.testscripts.LoginTest<br>Test method: Verify login functionality.<br>Parameters: (Browser: chrome, Hub: Pavi-PC, Node: LOCALHOST), chrome_XP<br/>
+<a href="#Output-357241043" onClick='toggleBox("Output-357241043", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-357241043" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-357241043">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify login functionality.</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-message">&emsp;Launching the TEMENOS Application</div><br/>
+<div class="test-message">&emsp;Logged in successfully using username : ROLFGERLINGTC</div><br/>
+<div class="test-message">&emsp;Navigated to Homepage!&emsp;<a href=".\ScreenShot\verifyLogin_1.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>53</td>
+<td>com.temenos.testscripts.LoginTest@7d9d1a19</td></tr>
+</table><p>
+</body>
+</html>

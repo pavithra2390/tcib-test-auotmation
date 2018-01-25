@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="500" verbose="3" name="Failed suite [Suite]">
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="devicePort" value="4444"/>
+  <parameter name="browserName" value="chrome_windows"/>
+  <test name="Temenos(failed)">
+    <classes>
+      <class name="com.temenos.testscripts.DepositTest">
+        <methods>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.DepositTest -->
+      <class name="com.temenos.testscripts.AllAccounts_RecentTransactionTest">
+        <methods>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.AllAccounts_RecentTransactionTest -->
+      <class name="com.temenos.testscripts.ManagePayees">
+        <methods>
+          <include name="TC_TCIB_ManagePayees_003" invocation-numbers="0"/>
+          <include name="setTestData"/>
+          <include name="TC_TCIB_ManagePayees_008" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.ManagePayees -->
+      <class name="com.temenos.testscripts.StandingOrder">
+        <methods>
+          <include name="TC_TCIB_StandinOrder_002" invocation-numbers="0"/>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.StandingOrder -->
+      <class name="com.temenos.testscripts.QuickTransfer">
+        <methods>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.QuickTransfer -->
+      <class name="com.temenos.testscripts.TransferTest">
+        <methods>
+          <include name="setTestData"/>
+          <include name="TC_TCIB_Transfer_005" invocation-numbers="0"/>
+          <include name="TC_TCIB_Transfer_004" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.TransferTest -->
+      <class name="com.temenos.testscripts.LoginTest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.LoginTest -->
+      <class name="com.temenos.testscripts.MortgageLoan">
+        <methods>
+          <include name="TC_TCIB_MortgageLoan_010" invocation-numbers="0"/>
+          <include name="TC_TCIB_MortgageLoan_005" invocation-numbers="0"/>
+          <include name="TC_TCIB_MortgageLoan_004" invocation-numbers="0"/>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.MortgageLoan -->
+      <class name="com.temenos.testscripts.AccountPageTest">
+        <methods>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.AccountPageTest -->
+      <class name="com.temenos.testscripts.SideBarTest">
+        <methods>
+          <include name="TC_TCIB_CustomerPreference_032" invocation-numbers="0"/>
+          <include name="TC_TCIB_CustomerPreference_025" invocation-numbers="0"/>
+          <include name="TC_TCIB_CustomerPreference_031" invocation-numbers="0"/>
+          <include name="TC_TCIB_CustomerPreference_035" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.SideBarTest -->
+      <class name="com.temenos.testscripts.PaymentTest">
+        <methods>
+          <include name="TC_TCIB_PAYMENT_020" invocation-numbers="0"/>
+          <include name="setTestData"/>
+          <include name="TC_TCIB_PAYMENT_021" invocation-numbers="0"/>
+          <include name="TC_TCIB_PAYMENT_008" invocation-numbers="0"/>
+          <include name="TC_TCIB_PAYMENT_019" invocation-numbers="0"/>
+          <include name="TC_TCIB_PAYMENT_018" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.PaymentTest -->
+      <class name="com.temenos.testscripts.SettingTest">
+        <methods>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.SettingTest -->
+      <class name="com.temenos.testscripts.AllAccountsTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="TC_TCIB_AllAccount_007" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.AllAccountsTest -->
+      <class name="com.temenos.testscripts.CurrentAccountTest">
+        <methods>
+          <include name="TC_TCIB_CURRENTACCOUNT_009" invocation-numbers="0"/>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.CurrentAccountTest -->
+      <class name="com.temenos.testscripts.DiscoverTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="setTestData"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.DiscoverTest -->
+    </classes>
+  </test> <!-- Temenos(failed) -->
+</suite> <!-- Failed suite [Suite] -->

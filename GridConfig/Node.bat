@@ -1,0 +1,1 @@
+start java -Dwebdriver.gecko.driver="geckodriver.exe" -Dwebdriver.chrome.driver="chromedriver.exe" -Dwebdriver.ie.driver="IEDriverServer.exe" -jar selenium-server-standalone-3.5.3.jar -role node -host localhost -hub "http://localhost:4444/grid/register" -port 5557

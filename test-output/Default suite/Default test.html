@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 15 13:01:33 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70568 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.temenos.testscripts.StandingOrd.TC_TCIB_StandinOrder_003()'><b>TC_TCIB_StandinOrder_003</b><br>Test class: com.temenos.testscripts.StandingOrd<br>Test method: Verify the Show options button in the list of standing order wizard<br>Parameters: (Browser: chrome, Hub: aspire1115, Node: LOCALHOST), chrome_XP<br/>
+<a href="#Output-463831913" onClick='toggleBox("Output-463831913", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-463831913" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-463831913">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">Verify the Show options button in the list of standing order wizard</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:37 640 - <b>4</b> - Driver::initialize::Get - com.temenos.support.WebDriverFactory.get(WebDriverFactory.java:382)</small> </font> </div><br/>
+<div class="test-message">&emsp;Login to the application..</div><br/>
+<div class="test-message">&emsp;Launching the URL : http://172.16.144.62:8080/Retail</div><br/>
+<div class="test-message">&emsp;Login Screen-1 is loaded properly!</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:39 354 - Entering value into textfield: Username TextField</small> </font> </div><br/>
+<div class="test-message">&emsp;Entering text : ROLFGERLINGTC</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:39 419 - Entered text : ROLFGERLINGTC</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:39 544 - Clicking on element - Next Button</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:40 225 - Next Button is clicked!</small> </font> </div><br/>
+<div class="test-message">&emsp;Login Screen-2 is loaded properly!</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:40 487 - Entering value into textfield: Password TextField</small> </font> </div><br/>
+<div class="test-message">&emsp;Entering password </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:40 544 - Entered password</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:40 670 - Clicking on element - Login Button</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:01:48 980 - Login Button is clicked!</small> </font> </div><br/>
+<div class="test-message">&emsp;Login was successful</div><br/>
+<div class="test-message">&emsp;Homepage is loaded properly!&emsp;<a href=".\ScreenShot\TC_TCIB_StandinOrder_003_1.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:20 394 - Clicking on element - All Accounts Tab</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:20 504 - All Accounts Tab is clicked!</small> </font> </div><br/>
+<div class="test-message">&emsp;Navigated to All Accounts Tab and its loaded properly!&emsp;<a href=".\ScreenShot\TC_TCIB_StandinOrder_003_2.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Navigating to Account number : 77895</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:28 128 - Clicking on element - Account Number - 77895</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:28 222 - Account Number - 77895 is clicked!</small> </font> </div><br/>
+<div class="test-message">&emsp;Navigated to Accounts Page and its loaded properly!&emsp;<a href=".\ScreenShot\TC_TCIB_StandinOrder_003_3.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;1 .Verifying the account details are correctly displayed..</div><br/>
+<div class="test-result"><br><font color="green"><strong> Account number is matching! </strong></font> <a href=".\ScreenShot\TC_TCIB_StandinOrder_003_4.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<div class="test-message">&emsp;2. Check the Account page is opening with 7 tabs</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:34 980 - All elements checked on this page:: [tabTransactions, tabTransfers, tabPayments, tabStandingOrders, tabDirectDebts, tabCheques, tabAlerts]</small> </font> </div><br/>
+<div class="test-result"><br><font color="green"><strong> Selected Account page is opened with 7 tabs </strong></font> <a href=".\ScreenShot\TC_TCIB_StandinOrder_003_5.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:38 663 - Clicking on element - Standing Order Tab</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:38 813 - Standing Order Tab is clicked!</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:39 727 - Page URL:: http://172.16.144.62:8080/retail/servletcontroller</small> </font> </div><br/>
+<div class="test-message">&emsp;StandingOrder tab is loaded properly!&emsp;<a href=".\ScreenShot\TC_TCIB_StandinOrder_003_6.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:41 684 - Page URL:: http://172.16.144.62:8080/retail/servletcontroller</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:41 997 - Clicking on element - Show Options</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:42 108 - Show Options is clicked!</small> </font> </div><br/>
+<div class="test-message">&emsp;3. Check the show options having Print option, PDF Download and CSV download options menus</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Nov 13:02:42 257 - All elements checked on this page:: [lnkPrintOption, lnkPDFDownloadOption, lnkCSVDownloadOption]</small> </font> </div><br/>
+<b><div class="test-result"><font color="red">&emsp;Select options are not displayed correctly</font><a href=".\ScreenShot\TC_TCIB_StandinOrder_003_7.png" target="_blank" >[ScreenShot]</a></div></b><br/>
+<!--FAILSOFT--><br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> Test Failed. Check the steps above in red color. </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Test Failed. Check the steps above in red color.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.temenos.support.Log.fail(Log.java:447)
+	at com.temenos.support.Log.testCaseResult(Log.java:216)
+	at com.temenos.testscripts.StandingOrd.TC_TCIB_StandinOrder_003(StandingOrd.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace463831913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace463831913'><pre>java.lang.AssertionError: Test Failed. Check the steps above in red color.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.temenos.support.Log.fail(Log.java:447)
+	at com.temenos.support.Log.testCaseResult(Log.java:216)
+	at com.temenos.testscripts.StandingOrd.TC_TCIB_StandinOrder_003(StandingOrd.java:143)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>66</td>
+<td>com.temenos.testscripts.StandingOrd@5622fdf</td></tr>
+</table><p>
+</body>
+</html>

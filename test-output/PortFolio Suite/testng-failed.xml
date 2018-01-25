@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="500" verbose="3" name="Failed suite [PortFolio Suite]">
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="devicePort" value="4444"/>
+  <parameter name="browserName" value="chrome_windows"/>
+  <test name="Temenos(failed)">
+    <classes>
+      <class name="com.temenos.testscripts.AccountPageTest">
+        <methods>
+          <include name="TC_TCIB_AccountPage_005" invocation-numbers="0"/>
+          <include name="setTestData"/>
+          <include name="beforeSuite"/>
+          <include name="TC_TCIB_AccountPage_004" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.AccountPageTest -->
+    </classes>
+  </test> <!-- Temenos(failed) -->
+</suite> <!-- Failed suite [PortFolio Suite] -->

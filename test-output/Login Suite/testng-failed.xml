@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="500" verbose="3" name="Failed suite [Login Suite]">
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="devicePort" value="4444"/>
+  <parameter name="browserName" value="iexplorer_windows"/>
+  <test name="Temenos(failed)">
+    <classes>
+      <class name="com.temenos.testscripts.LoginTest">
+        <methods>
+          <include name="verifyLogin" invocation-numbers="0"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.temenos.testscripts.LoginTest -->
+    </classes>
+  </test> <!-- Temenos(failed) -->
+</suite> <!-- Failed suite [Login Suite] -->

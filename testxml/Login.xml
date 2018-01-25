@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Suite" verbose="3"
+	   thread-count="500">
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="4444" />
+	<parameter name="browserName" value="iexplorer_windows" />
+	<test name="Temenos" thread-count="15" parallel="false">
+		<classes>
+			<class
+					name="com.temenos.testscripts.LoginTest" />
+		</classes>
+	</test>
+</suite>

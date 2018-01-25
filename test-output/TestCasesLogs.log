@@ -1,0 +1,77 @@
+09-Jan-2018 12:19:58:214 INFO  [PoolService-0]  
+09-Jan-2018 12:19:58:224 INFO  [PoolService-0] ****             Verify Current Account details displayed correctly.             ***** 
+09-Jan-2018 12:19:58:224 INFO  [PoolService-0]  
+09-Jan-2018 12:20:04:816 INFO  [PoolService-0] Launching the TEMENOS Application 
+09-Jan-2018 12:20:44:833 INFO  [PoolService-0] Logged in successfully using username : ROLFGERLINGTC 
+09-Jan-2018 12:20:50:809 INFO  [PoolService-0] Navigated to Homepage! 
+09-Jan-2018 12:21:27:079 INFO  [PoolService-0] Navigated to All Accounts Tab! 
+09-Jan-2018 12:21:42:208 INFO  [PoolService-0] Navigated to Accounts Page! 
+09-Jan-2018 12:21:42:209 INFO  [PoolService-0] <b>Expected : Verifying the account details are correctly displayed..</b> 
+09-Jan-2018 12:21:42:348 INFO  [PoolService-0] Actual : Account number is matching! 
+09-Jan-2018 12:21:43:013 INFO  [PoolService-0] Account Type is matching! 
+09-Jan-2018 12:21:43:013 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transactions, Transfers, Payments, Standing Orders, Direct Debits, Cheques, Alerts] are displayed for Current Account.</b> 
+09-Jan-2018 12:21:44:412 INFO  [PoolService-0] All tabs are displayed! 
+09-Jan-2018 12:21:44:636 INFO  [PoolService-0] Test Passed. 
+09-Jan-2018 12:21:44:636 INFO  [PoolService-0] ****             -E---N---D-             ***** 
+09-Jan-2018 12:21:44:646 INFO  [PoolService-0]  
+09-Jan-2018 12:21:44:646 INFO  [PoolService-0] ****             Verify Current Account details displayed correctly.             ***** 
+09-Jan-2018 12:21:44:646 INFO  [PoolService-0]  
+09-Jan-2018 12:21:49:535 INFO  [PoolService-0] Launching the TEMENOS Application 
+09-Jan-2018 12:22:20:598 INFO  [PoolService-0] Logged in successfully using username : ROLFGERLINGTC 
+09-Jan-2018 12:22:26:651 INFO  [PoolService-0] Navigated to Homepage! 
+09-Jan-2018 12:23:03:425 INFO  [PoolService-0] Navigated to All Accounts Tab! 
+09-Jan-2018 12:23:32:739 INFO  [PoolService-0] Navigated to Accounts Page! 
+09-Jan-2018 12:23:32:739 INFO  [PoolService-0] <b>Expected : Verifying the account details are correctly displayed..</b> 
+09-Jan-2018 12:23:32:828 INFO  [PoolService-0] Actual : Account number is matching! 
+09-Jan-2018 12:23:32:909 INFO  [PoolService-0] Actual : Account Type is matching! 
+09-Jan-2018 12:23:32:910 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transactions, Transfers, Payments, Standing Orders, Direct Debits, Cheques, Alerts] are displayed for Current Account.</b> 
+09-Jan-2018 12:23:34:323 INFO  [PoolService-0] All tabs are displayed! 
+09-Jan-2018 12:23:34:599 INFO  [PoolService-0] Test Passed. 
+09-Jan-2018 12:23:34:599 INFO  [PoolService-0] ****             -E---N---D-             ***** 
+09-Jan-2018 12:23:34:604 INFO  [PoolService-0]  
+09-Jan-2018 12:23:34:605 INFO  [PoolService-0] ****             Verify Savings Account details displayed correctly.             ***** 
+09-Jan-2018 12:23:34:605 INFO  [PoolService-0]  
+09-Jan-2018 12:23:41:326 INFO  [PoolService-0] Launching the TEMENOS Application 
+09-Jan-2018 12:24:17:201 INFO  [PoolService-0] Logged in successfully using username : ROLFGERLINGTC 
+09-Jan-2018 12:24:23:226 INFO  [PoolService-0] Navigated to Homepage! 
+09-Jan-2018 12:25:02:465 INFO  [PoolService-0] Navigated to All Accounts Tab! 
+09-Jan-2018 12:25:16:246 INFO  [PoolService-0] Navigated to Accounts Page! 
+09-Jan-2018 12:25:16:247 INFO  [PoolService-0] <b>Expected : Verifying the account details are correctly displayed..</b> 
+09-Jan-2018 12:25:17:076 INFO  [PoolService-0] Account number is matching! 
+09-Jan-2018 12:25:18:263 INFO  [PoolService-0] Account Type is matching! 
+09-Jan-2018 12:25:18:264 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transactions, Transfers, Payments, Standing Orders, Direct Debits, Cheques, Alerts] are displayed for Savings Account..</b> 
+09-Jan-2018 12:25:19:540 INFO  [PoolService-0] All tabs are displayed! 
+09-Jan-2018 12:25:19:987 INFO  [PoolService-0] Test Passed. 
+09-Jan-2018 12:25:19:987 INFO  [PoolService-0] ****             -E---N---D-             ***** 
+09-Jan-2018 12:25:20:018 INFO  [PoolService-0]  
+09-Jan-2018 12:25:20:019 INFO  [PoolService-0] ****             Verify Mortgage Account details displayed correctly.             ***** 
+09-Jan-2018 12:25:20:019 INFO  [PoolService-0]  
+09-Jan-2018 12:25:26:733 INFO  [PoolService-0] Launching the TEMENOS Application 
+09-Jan-2018 12:25:58:415 INFO  [PoolService-0] Logged in successfully using username : ROLFGERLINGTC 
+09-Jan-2018 12:26:04:466 INFO  [PoolService-0] Navigated to Homepage! 
+09-Jan-2018 12:26:42:112 INFO  [PoolService-0] Navigated to All Accounts Tab! 
+09-Jan-2018 12:27:08:733 INFO  [PoolService-0] Navigated to Accounts Page! 
+09-Jan-2018 12:27:08:734 INFO  [PoolService-0] <b>Expected : Verifying the account details are correctly displayed..</b> 
+09-Jan-2018 12:27:09:478 INFO  [PoolService-0] Account number is matching! 
+09-Jan-2018 12:27:09:479 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transactions, Schedule, Pay Overdue] are displayed for Morgage Account..</b> 
+09-Jan-2018 12:27:09:598 INFO  [PoolService-0] Actual : Transaction, Schedule and Pay OverDue tabs are displayed! 
+09-Jan-2018 12:27:09:599 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transfers, Payments, Standing Orders, Direct Debits, Cheques, Alerts] are not displayed for Mortgage Account..</b> 
+09-Jan-2018 12:27:10:776 INFO  [PoolService-0] Transfers, Payment, Standing Order, Direct Debts, Cheques, Alerts tabs are not displayed! 
+09-Jan-2018 12:27:10:986 INFO  [PoolService-0] Test Passed. 
+09-Jan-2018 12:27:10:987 INFO  [PoolService-0] ****             -E---N---D-             ***** 
+09-Jan-2018 12:27:11:019 INFO  [PoolService-0]  
+09-Jan-2018 12:27:11:020 INFO  [PoolService-0] ****             Verify Mortgage Account details displayed correctly.             ***** 
+09-Jan-2018 12:27:11:020 INFO  [PoolService-0]  
+09-Jan-2018 12:27:15:937 INFO  [PoolService-0] Launching the TEMENOS Application 
+09-Jan-2018 12:27:51:669 INFO  [PoolService-0] Logged in successfully using username : ROLFGERLINGTC 
+09-Jan-2018 12:27:58:586 INFO  [PoolService-0] Navigated to Homepage! 
+09-Jan-2018 12:28:37:052 INFO  [PoolService-0] Navigated to All Accounts Tab! 
+09-Jan-2018 12:29:12:363 INFO  [PoolService-0] Navigated to Accounts Page! 
+09-Jan-2018 12:29:12:363 INFO  [PoolService-0] <b>Expected : Verifying the account details are correctly displayed..</b> 
+09-Jan-2018 12:29:13:290 INFO  [PoolService-0] Account number is matching! 
+09-Jan-2018 12:29:13:290 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transactions, Schedule, Pay Overdue] are displayed for Mortgage Account..</b> 
+09-Jan-2018 12:29:15:086 INFO  [PoolService-0] Transaction, Schedule and Pay OverDue tabs are displaying 
+09-Jan-2018 12:29:15:086 INFO  [PoolService-0] <b>Expected : Verify whether the following tabs [Transfers, Payments, Standing Orders, Direct Debits, Cheques, Alerts] are not displayed for Mortgage Account..</b> 
+09-Jan-2018 12:29:17:619 INFO  [PoolService-0] Transfers, Payment, Standing Order, Direct Debts, Cheques, Alerts tabs are not displaying 
+09-Jan-2018 12:29:19:840 INFO  [PoolService-0] Test Passed. 
+09-Jan-2018 12:29:19:841 INFO  [PoolService-0] ****             -E---N---D-             ***** 
